@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "firestore-graficas-bbabd": {
+      "hosting": {
+        "goty-front": [
+          "firestore-graficas-bbabd"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "firestore-graficas-bbabd"
+  }
+}

@@ -1,0 +1,11 @@
+<h2>Game of the year!</h2>
+<hr />
+
+<div class="row">
+  <div class="col">
+    <app-grafico-barras
+      [results]="juegosGrafica"
+      *ngIf="juegosGrafica.length > 0"
+    ></app-grafico-barras>
+  </div>
+</div>
